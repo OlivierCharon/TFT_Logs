@@ -1,0 +1,111 @@
+main#index {
+    justify-content: center;
+    width: 75%;
+    margin: auto;
+}
+
+#navbarSupportedContent {
+    justify-content: space-between;
+}
+
+#main-nav {
+    padding: 0 50px;
+}
+
+#main-nav .mr-auto {
+    margin-right: unset !important;
+}
+
+
+
+#navbarSupportedContent ul.navbar-nav.mr-auto, #main-nav .navbar-brand {
+    font-size: 20px;
+}
+
+h1.title {
+    margin: 50px 0 25px 0;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    font-size: 26px;
+    letter-spacing: 2px;
+    word-spacing: 2px;
+    color: #ededed;
+    font-weight: bold;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: uppercase;
+    text-shadow: 2px 2px 2px rgba(33, 37, 41, 0.5);
+}
+
+.row.logs-article-line {
+    justify-content: space-evenly;
+    margin-bottom: 50px;
+}
+
+#confirmMessage #no-log-found {
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+
+#tft-penguin, #amumu {
+    width: 25%;
+    margin: 10% 0 50px 0;
+}
+
+/*-------------------------- HEADER -----------------------------------*/
+
+#account {
+    margin-bottom: 5px;
+}
+
+#account p {
+    text-align: center;
+    margin: auto;
+    font-size: x-large;
+}
+
+#account a {
+    margin-left: 0.5rem;
+}
+
+
+#account-search {
+    display: flex;
+    flex-direction: column;
+    margin: 10px 0;
+    width: 25%;
+}
+
+#account, #global-search {
+    justify-content: flex-end;
+}
+
+/*-------------------------- INDEX: LISTE DE POSTS -----------------------------------*/
+
+#no-log-found {
+    text-align: center;
+    margin: 10% 0;
+    font-size: x-large;
+}
+
+#index .imgPost {
+    height: auto;
+    max-width: 100%;
+}
+
+#index .card-deck {
+    height: fit-content;
+}
+
+/*-------------------------- REGISTER -----------------------------------*/
+#register-overlay fieldset, #newLog-overlay fieldset, #login-overlay fieldset {
+    width: 50%;
+    margin: 50px auto;
+}
+
+/*-------------------------- EDIT -----------------------------------*/
+
+#edit-log-picture {
+    width: 100%;
+}
